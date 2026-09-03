@@ -16,11 +16,11 @@ class Book:
         self.genre = genre
         self.pages = pages
 
-        def read(self):
-            print(f"{self.title} is being read! ")
+    def read(self):
+        print(f"{self.title} is being read! ")
 
-        def describe(self):
-            print(f"{self.title} is a {self.genre} book made by {self.author}")
+    def describe(self):
+        print(f"{self.title} is a {self.genre} book made by {self.author}")
 
         
 '''
