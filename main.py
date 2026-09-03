@@ -21,9 +21,8 @@ class Book:
 
         def describe(self):
             print(f"{self.title} is a {self.genre} book made by {self.author}")
+
         
-
-
 '''
 Q2. Write a class called "Employee" that has the attributes:
 name, job_title, and salary.
