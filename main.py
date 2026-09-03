@@ -17,13 +17,13 @@ class Book:
         self.pages = pages
 
     def read(self):
-        print(f"{self.title} is being read! ")
+        return f"{self.title} is being read! "
 
     def describe(self):
-        print(f"{self.title} is a {self.genre} book made by {self.author}")
+        return f"{self.title} is a {self.genre} book made by {self.author}"
 
     def __str__(self):
-        print(" ")
+        return " "
 
         
 '''
