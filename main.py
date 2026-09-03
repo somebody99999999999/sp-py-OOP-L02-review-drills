@@ -25,6 +25,8 @@ class Book:
     def __str__(self):
         return " "
 
+    
+
         
 '''
 Q2. Write a class called "Employee" that has the attributes:
