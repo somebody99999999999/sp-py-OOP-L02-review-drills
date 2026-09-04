@@ -17,16 +17,18 @@ class Book:
         self.pages = pages
 
     def read(self):
-        return f"{self.title} is being read! "
+        print (f"{self.title} is being read!")
 
     def describe(self):
-        return f"{self.title} is a {self.genre} book made by {self.author}"
+        print (f"{self.title} is a {self.genre} book made by {self.author}")
 
     def __str__(self):
-        return {self.title}, {self.author}, {self.genre}, {self.pages}
+        return f"{self.title}, {self.author}, {self.genre}, {self.pages}"
 
 bookobj = Book('title', 'author', 'genre', 'pages')
-
+print(bookobj)
+bookobj.read()
+bookobj.describe()
 
 '''
 Q2. Write a class called "Employee" that has the attributes:
@@ -41,7 +43,11 @@ Taylor (Database Administrator, $70000)
 
 Print each object. (You'll need the __str__() method.)
 '''
-
+class Employee:
+    def __init__(self, name ,job_title ,salary):
+        self.name = name
+        self.job_title = job_title
+        self.salary = salary
 
 
 
