@@ -63,7 +63,9 @@ class Employee:
 
 worker = Employee('name', 'job_title', 'salary')
 print(worker)
-
+worker.name()
+worker.job_title()
+worker.salary()
 '''
 Q3. Create a GameCharacter class and initialize it with:
 name, level, health, weapon, and speed.
