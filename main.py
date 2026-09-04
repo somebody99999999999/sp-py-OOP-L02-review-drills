@@ -23,11 +23,11 @@ class Book:
         return f"{self.title} is a {self.genre} book made by {self.author}"
 
     def __str__(self):
-        return " "
+        return {self.title}, {self.author}, {self.genre}, {self.pages}
 
 bookobj = Book('title', 'author', 'genre', 'pages')
 
-        
+
 '''
 Q2. Write a class called "Employee" that has the attributes:
 name, job_title, and salary.
