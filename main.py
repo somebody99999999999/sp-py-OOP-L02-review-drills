@@ -56,16 +56,13 @@ class Employee:
         print (f"{self.name} has {self.job_title}! ")
 
     def salary(self):
-        print (f"{self.name} has {self.job_title} and makes a salary of {self.salary}! ")
+        print (f" has {self.job_title} and makes a salary of {self.salary}! ")
 
     def __str__(self):
         return f"{self.name}, {self.job_title}, {self.salary}"
 
-John = Employee('name', 'job_title', 'salary')
-print(John)
-# John.name()
-# John.job_title()
-# John.salary()
+worker = Employee('name', 'job_title', 'salary')
+print(worker)
 
 '''
 Q3. Create a GameCharacter class and initialize it with:
