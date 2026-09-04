@@ -25,7 +25,7 @@ class Book:
     def __str__(self):
         return " "
 
-    
+bookobj = Book('title', 'author', 'genre', 'pages')
 
         
 '''
